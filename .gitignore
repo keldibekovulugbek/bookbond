@@ -1,0 +1,38 @@
+# Ignore build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Dd]ist/
+[Dd]evelopment/
+
+# Ignore user-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.csproj.user
+.vscode/
+
+# Ignore compiled code
+*.dll
+*.exe
+*.so
+*.dylib
+*.vsidx
+*.db
+*.db-shm
+*.db-wal
+*.json
+# Ignore ASP.NET temporary files
+*.dbmdl
+*.bak
+*.backup
+*.log
+
+# Ignore the Visual Studio for Mac configuration folder
+.vscode/
+
+# Ignore npm packages (for Angular)
+node_modules/
+
+# Ignore any environment files
+.env
