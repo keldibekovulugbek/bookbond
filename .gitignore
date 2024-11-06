@@ -21,6 +21,7 @@
 *.db
 *.db-shm
 *.db-wal
+*.json
 # Ignore ASP.NET temporary files
 *.dbmdl
 *.bak
