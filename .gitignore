@@ -30,7 +30,7 @@
 
 # Ignore the Visual Studio for Mac configuration folder
 .vscode/
-
+.vs/
 # Ignore npm packages (for Angular)
 node_modules/
 
