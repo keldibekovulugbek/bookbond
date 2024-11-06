@@ -9,6 +9,13 @@
 - **Author Profiles**: Explore information about authors and their works.
 - **Admin Panel**: Manage books, authors, and user content through a secure admin interface.
 
+## Architecture
+- **Back-End**: Developed using **ASP.NET Core** with a clean **N-Tier Architecture**.
+  - **Domain Layer**: Contains core business logic.
+  - **Data Layer**: Handles interactions with the database.
+  - **Service Layer**: Contains services for handling business logic.
+  - **API Layer**: RESTful API for handling client requests.
+  
 ## 🛠️ Tech Stack
 - **Backend**: ASP.NET Core
 - **Frontend**: Angular
