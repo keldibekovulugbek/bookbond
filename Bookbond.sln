@@ -9,11 +9,20 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookbond.Domain", "src\Book
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{22E31F5C-B45C-4FE1-B09C-06CD68C4B4F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookbond.Data", "src\Bookbond.Data\Bookbond.Data.csproj", "{29852A3B-B5F4-453F-A000-A1E322BAC690}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookbond.DataAccess", "src\Bookbond.Data\Bookbond.DataAccess.csproj", "{29852A3B-B5F4-453F-A000-A1E322BAC690}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C756C606-B7BB-40C6-A31C-8E6D5D848E0E} = {C756C606-B7BB-40C6-A31C-8E6D5D848E0E}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookbond.Service", "src\Bookbond.Service\Bookbond.Service.csproj", "{2A38F654-3F5C-4C93-B31F-540A9916FF77}"
+	ProjectSection(ProjectDependencies) = postProject
+		{29852A3B-B5F4-453F-A000-A1E322BAC690} = {29852A3B-B5F4-453F-A000-A1E322BAC690}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookbond.Api", "src\Bookbond.Api\Bookbond.Api.csproj", "{DB75B76D-A637-471F-AE99-9561E23BD4C4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2A38F654-3F5C-4C93-B31F-540A9916FF77} = {2A38F654-3F5C-4C93-B31F-540A9916FF77}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
