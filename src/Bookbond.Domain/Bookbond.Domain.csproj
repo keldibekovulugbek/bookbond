@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Entities\Categories\" />
     <Folder Include="Entities\Reviews\" />
   </ItemGroup>
 
