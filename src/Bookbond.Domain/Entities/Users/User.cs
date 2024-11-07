@@ -13,5 +13,5 @@ public class User : Auditable
     public string PasswordHash { get; set; } = null!;
     public string Salt { get; set; } = null!;
     public string? ProfilePicture { get; set; }
-    public UserRole role { get; set; } = UserRole.User;
+    public UserRole Role { get; set; } = UserRole.User;
 }

@@ -2,5 +2,5 @@
 
 public class BaseEntity
 {
-    public Guid Id { get; set; }
+    public long Id { get; set; }
 }

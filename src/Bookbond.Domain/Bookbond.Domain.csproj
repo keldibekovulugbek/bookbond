@@ -7,9 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Entities\Books\" />
     <Folder Include="Entities\Categories\" />
-    <Folder Include="Entities\BookShelves\" />
+    <Folder Include="Entities\Bookshelves\" />
     <Folder Include="Entities\Reviews\" />
   </ItemGroup>
 
