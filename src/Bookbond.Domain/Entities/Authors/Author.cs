@@ -20,6 +20,4 @@ public class Author : Auditable
     
     [Required] 
     public string LivingYears { get; set; } = null!;
-    
-    public virtual ICollection<Book> Books { get; set; } = new List<Book>();
 }
