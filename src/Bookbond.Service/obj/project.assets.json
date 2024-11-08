@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programming\\Startups\\bookbond\\src\\Bookbond.Service\\Bookbond.Service.csproj",
+      "projectUniqueName": "D:\\Programming\\Development\\Api-projects\\bookbond\\src\\Bookbond.Service\\Bookbond.Service.csproj",
       "projectName": "Bookbond.Service",
-      "projectPath": "D:\\Programming\\Startups\\bookbond\\src\\Bookbond.Service\\Bookbond.Service.csproj",
+      "projectPath": "D:\\Programming\\Development\\Api-projects\\bookbond\\src\\Bookbond.Service\\Bookbond.Service.csproj",
       "packagesPath": "C:\\Users\\keldi\\.nuget\\packages\\",
-      "outputPath": "D:\\Programming\\Startups\\bookbond\\src\\Bookbond.Service\\obj\\",
+      "outputPath": "D:\\Programming\\Development\\Api-projects\\bookbond\\src\\Bookbond.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
