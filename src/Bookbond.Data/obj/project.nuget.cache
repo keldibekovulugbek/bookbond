@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k5WnvKp/9+U=",
+  "dgSpecHash": "a+62eZ+mEO0=",
   "success": true,
-  "projectFilePath": "D:\\Programming\\Startups\\bookbond\\src\\Bookbond.Data\\Bookbond.DataAccess.csproj",
+  "projectFilePath": "D:\\Programming\\Development\\Api-projects\\bookbond\\src\\Bookbond.Data\\Bookbond.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\keldi\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\keldi\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
@@ -44,16 +44,5 @@
     "C:\\Users\\keldi\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512",
     "C:\\Users\\keldi\\.nuget\\packages\\system.threading.channels\\6.0.0\\system.threading.channels.6.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1604",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Project dependency Bookbond.Domain does not contain an inclusive lower bound. Include a lower bound in the dependency version to ensure consistent restore results.",
-      "libraryId": "Bookbond.Domain",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v8.0"
-      ]
-    }
-  ]
+  "logs": []
 }

@@ -2157,7 +2157,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Bookbond.Domain",
+      "Bookbond.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.10",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.10",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 8.0.10"
@@ -2170,11 +2170,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programming\\Startups\\bookbond\\src\\Bookbond.Data\\Bookbond.DataAccess.csproj",
+      "projectUniqueName": "D:\\Programming\\Development\\Api-projects\\bookbond\\src\\Bookbond.Data\\Bookbond.DataAccess.csproj",
       "projectName": "Bookbond.DataAccess",
-      "projectPath": "D:\\Programming\\Startups\\bookbond\\src\\Bookbond.Data\\Bookbond.DataAccess.csproj",
+      "projectPath": "D:\\Programming\\Development\\Api-projects\\bookbond\\src\\Bookbond.Data\\Bookbond.DataAccess.csproj",
       "packagesPath": "C:\\Users\\keldi\\.nuget\\packages\\",
-      "outputPath": "D:\\Programming\\Startups\\bookbond\\src\\Bookbond.Data\\obj\\",
+      "outputPath": "D:\\Programming\\Development\\Api-projects\\bookbond\\src\\Bookbond.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2196,8 +2196,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Programming\\Startups\\bookbond\\src\\Bookbond.Domain\\Bookbond.Domain.csproj": {
-              "projectPath": "D:\\Programming\\Startups\\bookbond\\src\\Bookbond.Domain\\Bookbond.Domain.csproj"
+            "D:\\Programming\\Development\\Api-projects\\bookbond\\src\\Bookbond.Domain\\Bookbond.Domain.csproj": {
+              "projectPath": "D:\\Programming\\Development\\Api-projects\\bookbond\\src\\Bookbond.Domain\\Bookbond.Domain.csproj"
             }
           }
         }
@@ -2218,10 +2218,6 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
-          "Bookbond.Domain": {
-            "target": "Package",
-            "version": "(, )"
-          },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
@@ -2258,17 +2254,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.1.24452.12/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1604",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Project dependency Bookbond.Domain does not contain an inclusive lower bound. Include a lower bound in the dependency version to ensure consistent restore results.",
-      "libraryId": "Bookbond.Domain",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v8.0"
-      ]
-    }
-  ]
+  }
 }

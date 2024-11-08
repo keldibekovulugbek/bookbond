@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programming\\Startups\\bookbond\\src\\Bookbond.Data\\Bookbond.Data.csproj": {}
+    "D:\\Programming\\Development\\Api-projects\\bookbond\\src\\Bookbond.Data\\Bookbond.Data.csproj": {}
   },
   "projects": {
-    "D:\\Programming\\Startups\\bookbond\\src\\Bookbond.Data\\Bookbond.Data.csproj": {
+    "D:\\Programming\\Development\\Api-projects\\bookbond\\src\\Bookbond.Data\\Bookbond.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming\\Startups\\bookbond\\src\\Bookbond.Data\\Bookbond.Data.csproj",
+        "projectUniqueName": "D:\\Programming\\Development\\Api-projects\\bookbond\\src\\Bookbond.Data\\Bookbond.Data.csproj",
         "projectName": "Bookbond.Data",
-        "projectPath": "D:\\Programming\\Startups\\bookbond\\src\\Bookbond.Data\\Bookbond.Data.csproj",
+        "projectPath": "D:\\Programming\\Development\\Api-projects\\bookbond\\src\\Bookbond.Data\\Bookbond.Data.csproj",
         "packagesPath": "C:\\Users\\keldi\\.nuget\\packages\\",
-        "outputPath": "D:\\Programming\\Startups\\bookbond\\src\\Bookbond.Data\\obj\\",
+        "outputPath": "D:\\Programming\\Development\\Api-projects\\bookbond\\src\\Bookbond.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

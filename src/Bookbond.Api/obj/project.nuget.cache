@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uvdlCO4BO64=",
+  "dgSpecHash": "SJiSEvRh+0I=",
   "success": true,
-  "projectFilePath": "D:\\Programming\\Startups\\bookbond\\src\\Bookbond.Api\\Bookbond.Api.csproj",
+  "projectFilePath": "D:\\Programming\\Development\\Api-projects\\bookbond\\src\\Bookbond.Api\\Bookbond.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\keldi\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\keldi\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

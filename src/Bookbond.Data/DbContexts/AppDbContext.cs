@@ -22,9 +22,6 @@ public class AppDbContext : DbContext
     public DbSet<BookshelfBook> BookshelfBooks { get; set; } = null!;
     public DbSet<Review> Reviews { get; set; } = null!;
 
-    //OnModelCreating method is used to configure the database schema with hasKey, hasMany, hasOne, etc.
-    //In DataBase need write as snake_case but in C# we use PascalCase
-
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
