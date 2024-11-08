@@ -1,6 +1,8 @@
 ﻿using Bookbond.DataAccess.DbContexts;
 using Microsoft.EntityFrameworkCore;
 using EFCore.NamingConventions;
+using Bookbond.DataAccess.Interfaces;
+using Bookbond.DataAccess.Repositories;
 
 namespace Bookbond.Api.Configurations.LayerConfigurations
 {
@@ -12,6 +14,7 @@ namespace Bookbond.Api.Configurations.LayerConfigurations
             {
                 options.UseNpgsql(configuration.GetConnectionString("BookbondDbConnection")).UseSnakeCaseNamingConvention();
             });
+            services.AddScoped<IUnitOfWork,UnitOfWork>();
         }
     }
 }
