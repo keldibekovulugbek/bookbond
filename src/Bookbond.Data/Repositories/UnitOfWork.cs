@@ -6,7 +6,7 @@ using Bookbond.DataAccess.Interfaces.Categories;
 using Bookbond.DataAccess.Interfaces.Reviews;
 using Bookbond.DataAccess.Interfaces.Users;
 
-namespace Bookbond.DataAccess.Interfaces;
+namespace Bookbond.DataAccess.Repositories;
 
 public interface UnitOfWork
 {
@@ -25,5 +25,6 @@ public interface UnitOfWork
     IUserRepository Users { get; }
 
     Task<int> SaveChangesAsync(CancellationToken cancellationToken = default);
+
 
 }
