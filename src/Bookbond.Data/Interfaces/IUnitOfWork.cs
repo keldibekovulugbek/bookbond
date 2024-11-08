@@ -8,7 +8,7 @@ using Bookbond.DataAccess.Interfaces.Users;
 
 namespace Bookbond.DataAccess.Interfaces;
 
-public interface UnitOfWork
+public interface IUnitOfWork
 {
     IAuthorRepository Authors { get; }
 

@@ -22,13 +22,4 @@
 		<ProjectReference Include="..\Bookbond.Domain\Bookbond.Domain.csproj" />
 	</ItemGroup>
 
-	<ItemGroup>
-	  <Folder Include="Repositories\Authors\" />
-	  <Folder Include="Repositories\Bookshelves\" />
-	  <Folder Include="Repositories\Books\" />
-	  <Folder Include="Repositories\Categories\" />
-	  <Folder Include="Repositories\Reviews\" />
-	  <Folder Include="Repositories\Users\" />
-	</ItemGroup>
-
 </Project>
