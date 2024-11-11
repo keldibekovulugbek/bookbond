@@ -20,36 +20,37 @@ public class GenericRepository<T> : IGenericRepository<T> where T : BaseEntity
 
     public void Add(T entity)
     {
-        throw new NotImplementedException();
+        _dbSet.Add(entity);
     }
 
-    public Task Delete(long id)
+    public void Delete(long id)
     {
-        throw new NotImplementedException();
+        var entity = _dbSet.Find(id);
+        if (entity != null)
+        {
+            _dbSet.Remove(entity);
+        }
     }
 
-    public Task<T> FirstOrDefaultAsync(Expression<Func<T, bool>> expression)
-    {
-        throw new NotImplementedException();
-    }
+    public Task<T?> FirstOrDefaultAsync(Expression<Func<T, bool>> expression) 
+        => _dbSet.FirstOrDefaultAsync(expression)!;
 
     public IQueryable<T> GetAll()
     {
-        throw new NotImplementedException();
+        return _dbSet.AsNoTracking();
     }
 
-    public Task<T> GetByIdAsync(long id)
+    public async Task<T?> GetByIdAsync(long id)
+        => await _dbSet.FindAsync(id);
+    
+    public void Update(long id, T entity)
     {
-        throw new NotImplementedException();
-    }
-
-    public Task<T> Update(long id, T entity)
-    {
-        throw new NotImplementedException();
+        entity.Id = id;
+        _dbSet.Update(entity);
     }
 
     public IQueryable<T> Where(Expression<Func<T, bool>> expression)
     {
-        throw new NotImplementedException();
+        return _dbSet.Where(expression).AsNoTracking();
     }
 }
