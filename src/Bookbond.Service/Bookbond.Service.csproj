@@ -14,7 +14,7 @@
     <Folder Include="DTOs\Common\" />
     <Folder Include="DTOs\Reviews\" />
     <Folder Include="DTOs\Users\" />
-    <Folder Include="Atributes\" />
+    <Folder Include="Attributes\" />
     <Folder Include="Interfaces\Authors\" />
     <Folder Include="Interfaces\Bookshelves\" />
     <Folder Include="Interfaces\Books\" />
