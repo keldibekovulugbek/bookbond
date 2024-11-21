@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "Bookbond.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Bookbond.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Bookbond.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Bookbond.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Bookbond.Domain/Bookbond.Domain.csproj",
+      "msbuildProject": "../Bookbond.Domain/Bookbond.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "Bookbond.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\keldi\\.nuget\\packages\\": {},
@@ -39,7 +58,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Programming\\Development\\Api-projects\\bookbond\\src\\Bookbond.Domain\\Bookbond.Domain.csproj": {
+              "projectPath": "D:\\Programming\\Development\\Api-projects\\bookbond\\src\\Bookbond.Domain\\Bookbond.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
