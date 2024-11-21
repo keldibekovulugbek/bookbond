@@ -6,4 +6,29 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="DTOs\Authors\" />
+    <Folder Include="DTOs\Bookshelves\" />
+    <Folder Include="DTOs\Books\" />
+    <Folder Include="DTOs\Categories\" />
+    <Folder Include="DTOs\Common\" />
+    <Folder Include="DTOs\Reviews\" />
+    <Folder Include="DTOs\Users\" />
+    <Folder Include="Atributes\" />
+    <Folder Include="Interfaces\Authors\" />
+    <Folder Include="Interfaces\Bookshelves\" />
+    <Folder Include="Interfaces\Books\" />
+    <Folder Include="Interfaces\Categories\" />
+    <Folder Include="Interfaces\Common\" />
+    <Folder Include="Interfaces\Reviews\" />
+    <Folder Include="Interfaces\Users\" />
+    <Folder Include="Services\Authors\" />
+    <Folder Include="Services\Bookshelves\" />
+    <Folder Include="Services\Books\" />
+    <Folder Include="Services\Categories\" />
+    <Folder Include="Services\Common\" />
+    <Folder Include="Services\Reviews\" />
+    <Folder Include="Services\Users\" />
+  </ItemGroup>
+
 </Project>
