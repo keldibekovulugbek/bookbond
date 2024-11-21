@@ -21,13 +21,22 @@ public class User : Auditable
 
     [Required]
     [Column(TypeName = "date")]
-    public DateTime DateOfBirth { get; set; }
+    public DateOnly DateOfBirth { get; set; }
 
     [Required]
     [EmailAddress]
     public string Email { get; set; } = null!;
 
+    public string? PhoneNumber { get; set; }
+
+    [Required]
+    [MinLength(3)]
+    [MaxLength(50)]
+    public string Username { get; set; } = null!;
+
     public bool IsEmailVerified { get; set; } = false;
+
+    public bool IsPhoneVerified { get; set; } = false;
 
     public string PasswordHash { get; set; } = null!;
 
