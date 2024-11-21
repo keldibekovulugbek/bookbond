@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Bookbond.Service.DTOs.Accounts;
 
-public class AccountCreateDTO
+public record AccountCreateDTO
 {
 
     [Required, MinLength(3)]
@@ -15,6 +15,9 @@ public class AccountCreateDTO
 
     [Required]
     public string Email { get; set; } = string.Empty;
+
+    [Required]
+    public string Username { get; set; } = string.Empty;
 
     [Required]
     public string Password { get; set; } = string.Empty;

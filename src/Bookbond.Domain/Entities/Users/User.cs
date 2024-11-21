@@ -21,7 +21,7 @@ public class User : Auditable
 
     [Required]
     [Column(TypeName = "date")]
-    public DateTime DateOfBirth { get; set; }
+    public DateOnly DateOfBirth { get; set; }
 
     [Required]
     [EmailAddress]

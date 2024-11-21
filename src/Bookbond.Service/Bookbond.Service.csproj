@@ -14,7 +14,6 @@
     <Folder Include="DTOs\Common\" />
     <Folder Include="DTOs\Reviews\" />
     <Folder Include="Attributes\" />
-    <Folder Include="DTOs\Users\" />
     <Folder Include="Interfaces\Authors\" />
     <Folder Include="Interfaces\Bookshelves\" />
     <Folder Include="Interfaces\Books\" />
@@ -27,11 +26,11 @@
     <Folder Include="Services\Categories\" />
     <Folder Include="Services\Common\" />
     <Folder Include="Services\Reviews\" />
-    <Folder Include="Services\Users\" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Bookbond.Domain\Bookbond.Domain.csproj" />
+	  <ProjectReference Include="..\Bookbond.Data\Bookbond.DataAccess.csproj" />
   </ItemGroup>
 
 </Project>
