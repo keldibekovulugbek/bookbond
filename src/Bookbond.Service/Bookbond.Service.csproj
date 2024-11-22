@@ -18,7 +18,6 @@
     <Folder Include="Interfaces\Bookshelves\" />
     <Folder Include="Interfaces\Books\" />
     <Folder Include="Interfaces\Categories\" />
-    <Folder Include="Interfaces\Common\" />
     <Folder Include="Interfaces\Reviews\" />
     <Folder Include="Services\Authors\" />
     <Folder Include="Services\Bookshelves\" />
@@ -35,6 +34,7 @@
 
   <ItemGroup>
     <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.2.1" />
   </ItemGroup>
 
 </Project>
