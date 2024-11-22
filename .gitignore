@@ -27,6 +27,23 @@
 *.bak
 *.backup
 *.log
+#Ignore appsettings files
+appsettings.json
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Staging.json
+appsettings.Local.json
+appsettings.Test.json
+#Ignore launchSettings files
+launchSettings.json
+#Ignore .NET Core SPA static files
+ClientApp/dist/
+#Ignore .NET Core SPA node_modules
+ClientApp/node_modules/
+#Ignore .NET Core SPA npm-debug.log
+npm-debug.log
+#Ignore .NET Core SPA ngrok.log
+ngrok.log
 
 # Ignore the Visual Studio for Mac configuration folder
 .vscode/
